@@ -20,6 +20,6 @@ Nessa formação, vamos conhecer sobre:
 
 SENAI
 
-Data de início: 04/02/2026
-Data de conclusão prevista: 06/03/2026
-Data de conclusão: 
+- Data de início: 04/02/2026
+- Data de conclusão prevista: 06/03/2026
+- Data de conclusão: A definir.
