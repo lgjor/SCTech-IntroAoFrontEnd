@@ -1,5 +1,9 @@
 # Carreira Tech - Trilha Desenvolvimento de Software
 
+<div align="center">
+    <img src="images/topbanner.png">
+</div>
+
 ## Objetivo
 
 Proporcionar ao estudante os conhecimentos introdutórios necessários para compreender a estrutura básica de aplicações web, explorando a construção de interfaces com HTML, CSS e JavaScript e os fundamentos de servidores, APIs e persistência de dados com Node.js, de modo a permitir que desenvolva páginas dinâmicas, rotas simples e operações essenciais, aplicando lógica de programação e boas práticas iniciais do desenvolvimento web.
