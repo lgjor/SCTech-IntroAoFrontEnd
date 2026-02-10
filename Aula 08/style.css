@@ -1,3 +1,30 @@
+
+/* Seletor universal: * - Aplica a regra de estilo a todos os elementos da página */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Seletor por tag: p - Aplica a regra de estilo a todos os elementos <p> da página */
 p {
     color: orange;
+}
+
+div {
+    height: 200px;
+    color: black;
+}
+
+a {
+    color: green;
+}
+
+/* Seletor por id: #titulo - Aplica a regra de estilo ao elemento com id="titulo" */
+#titulo {
+    color: olivedrab;
+}
+
+/* Seletor por classe: .destaque - Aplica a regra de estilo a todos os elementos com class="destaque" */
+.destaque {
+    font-weight: bold;
 }
