@@ -28,3 +28,23 @@ a {
 .destaque {
     font-weight: bold;
 }
+
+/* Seletor irmão adjacente: p + a - Aplica a regra de estilo ao elemento <a> que é imediatamente precedido por um elemento <p> */
+p + a {
+    color: red;
+}
+
+/* Seletor irmão geral: a ~ a - Aplica a regra de estilo a todos os elementos <a> que são irmãos de outro elemento <a> */
+a ~ a {
+    color: blue;
+}
+
+/* Seletor filho: p > a - Aplica a regra de estilo ao elemento <a> que é filho direto de um elemento <p> */
+p > a {
+    color: purple;
+}
+
+/* Seletor descendente: div a - Aplica a regra de estilo a todos os elementos <a> que são descendentes de um elemento <div> */
+div a {
+    color: brown;
+}
