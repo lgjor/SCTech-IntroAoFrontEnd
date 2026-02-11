@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    display: grid;
+    /* Define 3 colunas e 4 linhas */
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto auto 1fr auto;
+    /* Nomeia as áreas para facilitar o posicionamento */
+    grid-template-areas: 
+        "header  header  header"
+        "menu    menu    menu"
+        "left    content right"
+        "footer  footer  footer";
+    min-height: 100vh;
+    gap: 10px; /* Espaço entre os blocos */
+    background-color: #f0f0f0;
+}
+
+/* Posicionando cada classe em sua respectiva área */
+.header { 
+    grid-area: header; 
+    background-color: #d1d9e6; 
+}
+
+.nav    { 
+    grid-area: menu;   
+    background-color: #abbcd6; 
+}
+
+.left-column  { 
+    grid-area: left;
+    background-color: #d1d9e6; 
+}
+
+.content      { 
+    grid-area: content; 
+    background-color: #e9eef5; 
+}
+
+.right-column { 
+    grid-area: right;   
+    background-color: #abbcd6; 
+}
+
+.footer       { 
+    grid-area: footer;  
+    background-color: #abbcd6; 
+}
+
+/* Estilização comum para visualização */
+.header, .nav, .left-column, .content, .right-column, .footer {
+    padding: 40px 20px;
+    text-align: center;
+    border: 1px solid #999;
+}
