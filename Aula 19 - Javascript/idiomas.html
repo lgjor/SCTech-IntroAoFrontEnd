@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saudações em diferentes idiomas</title>
+    <link rel="stylesheet" href="idiomas.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Saudações em Idiomas</h1>
+        
+        <div class="select-wrapper">
+            <select id="idioma" onchange="mostrarSaudacao()">
+                <option value="">Selecione um idioma</option>
+                <option value="portugues">Português</option>
+                <option value="ingles">Inglês</option>
+                <option value="espanhol">Espanhol</option>
+                <option value="frances">Francês</option>
+                <option value="alemao">Alemão</option>
+            </select>
+        </div>
+        
+        <p id="saudacao"></p>
+    </div>
+    
+    <script src="idiomas.js"></script>
+</body>
+</html>

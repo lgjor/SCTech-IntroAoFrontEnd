@@ -1,0 +1,25 @@
+body {
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+#divs {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os quadrados */
+    flex-wrap: wrap; /* Permite que os quadrados quebrem linha se necessário */
+}
+
+.squares {
+    height: 50px;
+    width: 50px;
+    color: white;
+    border-radius: 3px;
+    background-color: #333; /* Cor padrão antes do JS agir */
+
+    /* Centralização perfeita do texto */
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    
+    /* line-height e text-align tornam-se redundantes com flex */
+}

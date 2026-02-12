@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora básica</title>
+    <link rel="stylesheet" href="calculadorabasica.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Calculadora Básica</h1>
+        <p class="info-text">Operadores: +, -, *, /</p>
+        
+        <div class="input-group">
+            <input type="number" id="numero1" placeholder="Primeiro número">
+            <input type="number" id="numero2" placeholder="Segundo número">
+            <input type="text" id="operador" placeholder="Operador (+, -, *, /)">
+        </div>
+        
+        <button onclick="efetuarOperacao()">Calcular</button>
+        <p id="resultado"></p>
+    </div>
+    
+    <script src="calculadorabasica.js"></script>
+</body>
+</html>
