@@ -7,7 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>Saudação personalizada</h1>
+    <p>
+        <label for="nome">Digite seu nome</label>
+        <input type="text" id="nome">
+    </p>
+    <p>
+        <label for="hora">Informe o período do dia</label>
+        <select id="hora">
+            <option value="8">Manhã (8h)</option>
+            <option value="14">Tarde (14h)</option>
+            <option value="20">Noite (20h)</option>
+        </select>
+    </p>
+    <button onclick="saudar()">Saudar</button>
+    <p id="mensagem"></p>
     <script src="script.js"></script>
 </body>
 </html>

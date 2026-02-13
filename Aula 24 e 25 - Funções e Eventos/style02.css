@@ -1,0 +1,15 @@
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+input {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 16px;
+}
+
+div, h1 {
+    justify-self: center;
+}
