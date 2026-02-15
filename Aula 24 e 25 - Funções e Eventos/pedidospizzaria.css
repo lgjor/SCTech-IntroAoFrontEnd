@@ -1,0 +1,78 @@
+/* Estilo para o corpo da página */
+body {
+    background-color: #a52a2a; /* O tom de marrom/vermelho que você já usa */
+    color: #ffcc00; /* Dourado para os textos */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    height: 100vh;
+    margin: 60px 0;
+}
+
+/* Estilização do Input */
+input[type="number"] {
+    padding: 12px 20px;
+    margin: 15px 0;
+    border: 2px solid #ffcc00;
+    border-radius: 8px;
+    background-color: #fffdf5;
+    font-size: 1.1rem;
+    color: #333;
+    width: 250px;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Efeito quando o usuário clica no input */
+input[type="number"]:focus {
+    border-color: #fff;
+    box-shadow: 0 0 10px #ffcc00;
+    transform: scale(1.02);
+}
+
+/* Estilização do Botão */
+button {
+    padding: 12px 30px;
+    background-color: #ffcc00;
+    color: #a52a2a;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+/* Efeito de hover no botão */
+button:hover {
+    background-color: #ffe066;
+    transform: translateY(-2px);
+}
+
+/* Efeito de clique no botão */
+button:active {
+    transform: translateY(0);
+}
+
+/* Estilo para a mensagem do sabor */
+#sabor {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 10px;
+    min-height: 1.2em; /* Evita que o layout "pule" quando o texto aparece */
+}
+
+div, h1, p {
+    justify-self: center;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
